@@ -1,0 +1,103 @@
+/* generales */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+
+
+.central img:hover , .derecha img:hover     {       opacity: 0.3;
+    filter: alpha(opacity=30);
+    transition:all .5s ease-in-out;}
+
+
+/* izquierda */
+
+.izquierda {
+    width: 300px;
+    margin-top: 30px;
+    margin-right: 60px;
+    padding: 0px;
+    float: left;
+    text-align: justify;
+    color: grey;
+}
+
+.suscribete {
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(241, 239, 239);
+}
+
+.bottom {
+    background-color: #7ABA96;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.bottom a {
+    color: black;
+    text-decoration: none;
+}
+
+.bottom a:hover {
+    color: white;
+}
+
+
+/* central y derecha */
+
+article h3 a {
+    color: black;
+    text-decoration: none;
+}
+
+article h3 a:hover {
+    color: #8A8070
+}
+
+.fecha {
+    border-top: solid 1px #7ABA96;
+    border-bottom: solid 1px #7ABA96;
+    text-align: center;
+}
+
+
+/* central */
+.central {
+    margin-top: 30px;
+    width: 400px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+
+.art2 img {
+    margin-top: 130px;
+}
+
+/* derecha */
+
+.derecha {
+    margin-top: 30px;
+    width: 400px;
+}
+
+.art4 img {
+    margin-top: 130px;
+}

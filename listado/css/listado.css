@@ -1,0 +1,205 @@
+
+/*       GENERAL       */
+
+body {
+    background: url("../../imagenes/background_b&b.png");
+    background-size: contain;
+}
+
+h2 {text-align: center;}
+.underline {
+    border-bottom: solid 2px#7ABA96;
+    margin: -10px auto;
+    width: 200px;
+  }
+
+h3 .tipos{margin-bottom: 50px;}
+h4 a {color:  #8A8070}
+h4 a:hover { color: #7ABA96;}
+
+.tipos {float:left;
+    width: 200px;
+    color: #8A8070;}
+
+/*       BUSQUEDA       */
+.search svg {
+    width: 20px;
+    fill: #4e4e4e;
+    margin-bottom: -6px;
+}
+
+.search button {
+    width: 40px;
+    margin-right: 150px;
+    background-color: #7ABA96;
+}
+
+span {color: black;
+font-weight: bold;}
+
+.search input[type="text"] {
+    height: 16px;
+    border: 1px solid #8A8070;
+}
+
+.search {
+    font-size:15px ;
+    background-color: #e6e6e6;
+    padding: 7px 0px;
+    text-align: right;}
+
+
+/*       CONTENIDO       */
+.content { display: flex;
+justify-content: center;
+flex-wrap: wrap;}
+main {
+    float: left;
+    Width: 800px;
+    margin: 5px auto 15px;
+    margin-left: 80px;
+    margin-right: 0px;
+}
+
+/* Inicio > Lista de Recetas > Recetas Fáciles */
+.content_top {
+    font-size: 13px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content_top span a{
+    text-decoration: none;
+    color:#8A8070 ;
+}
+
+.content_top span a:hover{
+    text-decoration: none;
+    color:#7ABA96;
+}
+
+/*          BOX RECETAS         */
+
+.title {
+    margin-right: 0px;
+
+    background-color: #e6e6e6;
+    border: solid 3px #e6e6e6;
+    box-shadow: 5px 5px 20px -14px #000;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 1250px;
+    z-index: 22;
+}
+
+/* UNA RECETA*/
+
+/* ICON TITULO*/
+.icon_titulo {
+    position: relative;
+    width: 50px;
+margin-right: 20px;
+margin-bottom: 0px;}
+.icon {width: 30px;}
+
+/* ICON print,like,save*/
+.logos {
+    float: right;
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-right: 24px;}
+
+ .logos svg {     
+        margin:5px;
+        margin-bottom: 0px;
+        width: 35px;
+        height: 35px;
+        fill:black;}
+
+/* IMG */
+.img_small {
+    border: 2px solid white;
+    width: 120px;
+    height: 120px;
+float: left;
+margin-right: 30px;}
+
+.recipe p {font-size: 15px ;
+font-weight: lighter;}
+
+
+/*       ASIDE       */
+
+/* Contenido lateral */
+
+.sideBar { 
+    float: left;
+	width:300px;
+    height: 1200px;
+	background-color: #7ABA96;
+	position: relative;
+	top: 80px;
+	margin-bottom: 50px;
+	z-index: 40;
+	padding: 30px;
+    margin-left: 90px;
+
+}
+
+.sideBar .asideLista {
+    text-align: left;
+    
+}
+.sideBar .Link {
+	color: #8A8076;
+	text-decoration: none;
+    text-transform: capitalize;
+    
+
+}
+.sideBar .Link:hover {
+	color: white;
+
+}
+
+
+
+/*       PAGINACIÓN       */
+.paginacion {
+
+    z-index: 70;
+    height: 36px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.paginacion ul {
+    padding: 0px;
+    border-radius: 3px 3px 3px 3px;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 80px;
+    margin-right: 0px;
+}
+
+.paginacion li {
+    display: inline;
+}
+
+.paginacion a {
+    background-color: #e6e6e6;
+    color: #8A8070;
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    float: left;
+    line-height: 34px;
+    padding: 0 14px;
+    text-decoration: none;
+}
+
+.paginacion a:hover {
+    background-color: #7ABA96;
+    color: white;
+}

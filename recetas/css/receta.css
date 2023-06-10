@@ -1,0 +1,252 @@
+/*Contenedor principal*/
+
+body {
+    background: url("../../imagenes/background_b&b.png");
+    background-size: contain;
+}
+
+
+main {
+    max-width: 1000px;
+    height: 2100px;
+    padding: 40px;
+}
+
+/* titulos */
+h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+h4 {
+    text-align: left;
+    font-weight: bolder;
+    color: #8A8070;
+}
+
+h3 {
+    color: #8A8070;
+}
+
+/* IMAGEN PRINCIPAL */
+.huevos {
+    margin: 20px;
+    margin-top: 25px;
+    border: solid 5px white;
+    ;
+}
+
+/* Logos bajo imagen */
+.logos {
+    float: right;
+    margin-top: 0px;
+    margin-left: 700px;
+    margin-bottom: 20px;
+    margin-right: 24px;
+}
+
+
+
+
+
+/*         DATOS DE RECETA         */
+.ingredientes {
+    margin-left: 30px;
+    float: left;
+    width: 400px;
+    border-right: solid 3px#7ABA96;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+ol li {
+    margin-left: 0px;
+    text-transform: capitalize;
+    width: 500px;
+
+}
+
+/*tiempo, comensal, valoración*/
+.datos {
+    float: right;
+    width: 400px;
+    padding-bottom: 20px;
+    margin-right: 60px;
+}
+
+/*         ELABORACIÓN         */
+.elab {
+    margin-left: 30px;
+    float: left;
+    width: 600px;
+}
+
+.paso {
+    text-transform: none;
+}
+
+
+/* tabla nutricional */
+.tabla {
+    border: solid 1px #8A8070;
+    border-style: dotted;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.izquierda {
+    width: 230px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+}
+
+.derecha {
+    width: 200px;
+    padding-bottom: 20px;
+}
+
+.text1,
+.nut1 {
+    text-align: center;
+    color: #8A8070;
+}
+
+.nut1 {
+    margin-bottom: 0px;
+    color: rgb(254, 50, 135);
+}
+
+
+.text2,
+.nut2 {
+    text-align: center;
+    color: #8A8070;
+}
+
+.nut2 {
+    margin-bottom: 0px;
+    color: rgb(254, 40, 40);
+}
+
+.text3,
+.nut3 {
+    text-align: center;
+    color: #8A8070;
+}
+
+.nut3 {
+    margin-bottom: 0px;
+    color: rgb(255, 197, 38);
+}
+
+.text4,
+.nut4 {
+    text-align: center;
+    color: #8A8070;
+}
+
+.nut4 {
+    margin-bottom: 0px;
+    color: rgb(96, 191, 65)
+}
+
+/* COMENTARIO */
+.comentario {
+    margin-left: 70px;
+    width: 900px;
+
+}
+
+
+
+
+/* seccion franja de imagenes*/
+
+.franja {
+
+    margin-left: 30px;
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.figcaption {
+    color: #8A8070;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.franja img:hover {opacity: 0.3;
+    filter: alpha(opacity=30);
+    transition:all .5s ease-in-out;}
+
+
+/* ---IMAGENES---- */
+.imgstep {
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 70;
+    background-color: white;
+    padding: 15px;
+    border: solid 1px #8A8070;
+}
+
+
+.nutr {
+    margin: 0px;
+    margin-right: 5px;
+    margin-top: 15px;
+    float: left;
+}
+
+
+/* ---ICONOS---- */
+
+/* GENERAL */
+svg {
+    width: 40px;
+    height: 40px;
+    fill: black;
+
+}
+
+/* INGREDIENTES */
+.check {
+    width: 23px;
+    height: 23px;
+    fill: black;
+
+}
+
+/* ICONO DE DATOS */
+.icon {
+    float: left;
+    margin: 20px;
+}
+
+/* VALORACIÓN */
+.star {
+    fill: rgb(255, 153, 0);
+}
+
+.paso {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/*NUMEROS*/
+
+.numeros {
+    position: absolute;
+    z-index: 80;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    width: 30px;
+
+    background-color: #7ABA96;
+    border-radius: 50px;
+}
